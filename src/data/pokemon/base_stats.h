@@ -21549,12 +21549,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_COMFEY] =
     {
-        .baseHP        = 51,
-        .baseAttack    = 52,
-        .baseDefense   = 90,
+        .baseHP        = 70,
+        .baseAttack    = 30,
+        .baseDefense   = 100,
         .baseSpeed     = 100,
-        .baseSpAttack  = 82,
-        .baseSpDefense = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 125,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_FAIRY,
         .catchRate = 60,

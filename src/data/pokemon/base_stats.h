@@ -20873,12 +20873,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ORICORIO] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 70,
-        .baseDefense   = 70,
-        .baseSpeed     = 93,
-        .baseSpAttack  = 98,
-        .baseSpDefense = 70,
+        .baseHP        = 85,
+        .baseAttack    = 75,
+        .baseDefense   = 80,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 80,
         .type1 = TYPE_FIRE,
         .type2 = TYPE_FLYING,
         .catchRate = 45,
@@ -32107,12 +32107,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ORICORIO_POM_POM] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 70,
-        .baseDefense   = 70,
-        .baseSpeed     = 93,
-        .baseSpAttack  = 98,
-        .baseSpDefense = 70,
+        .baseHP        = 85,
+        .baseAttack    = 75,
+        .baseDefense   = 80,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 80,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_FLYING,
         .catchRate = 45,
@@ -32138,12 +32138,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ORICORIO_PA_U] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 70,
-        .baseDefense   = 70,
-        .baseSpeed     = 93,
-        .baseSpAttack  = 98,
-        .baseSpDefense = 70,
+        .baseHP        = 85,
+        .baseAttack    = 75,
+        .baseDefense   = 80,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 80,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FLYING,
         .catchRate = 45,
@@ -32169,12 +32169,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ORICORIO_SENSU] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 70,
-        .baseDefense   = 70,
-        .baseSpeed     = 93,
-        .baseSpAttack  = 98,
-        .baseSpDefense = 70,
+        .baseHP        = 85,
+        .baseAttack    = 75,
+        .baseDefense   = 80,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 80,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_FLYING,
         .catchRate = 45,

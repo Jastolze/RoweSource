@@ -5517,8 +5517,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_SYNCHRONIZE, ABILITY_SYNCHRONIZE},
-        .abilityHidden = ABILITY_INNER_FOCUS,
+        .abilities = {ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE},
+        .abilityHidden = ABILITY_UNAWARE,
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
@@ -8174,7 +8174,7 @@ const struct BaseStats gBaseStats[] =
         .catchRate = 190,
         .expYield = 48,
         .evYield_HP        = 1,
-        .item2 = ITEM_CHESTO_BERRY,
+        .item2 = ITEM_LEFTOVERS,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
@@ -8202,7 +8202,7 @@ const struct BaseStats gBaseStats[] =
         .catchRate = 120,
         .expYield = 126,
         .evYield_HP        = 2,
-        .item2 = ITEM_CHESTO_BERRY,
+        .item2 = ITEM_LEFTOVERS,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
@@ -8230,7 +8230,7 @@ const struct BaseStats gBaseStats[] =
         .catchRate = 45,
         .expYield = 221,
         .evYield_HP        = 3,
-        .item2 = ITEM_CHESTO_BERRY,
+        .item2 = ITEM_LEFTOVERS,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
@@ -18836,7 +18836,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -18865,7 +18865,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -18894,7 +18894,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -31355,7 +31355,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -31384,7 +31384,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -31413,7 +31413,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
@@ -31442,7 +31442,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FLOWER_VEIL, ABILITY_NONE},
+            .abilities = {ABILITY_DAZZLING, ABILITY_NONE},
             .abilityHidden = ABILITY_SYMBIOSIS,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},

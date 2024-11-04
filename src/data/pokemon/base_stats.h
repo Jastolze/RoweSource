@@ -12865,9 +12865,9 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_PRESSURE, ABILITY_PRESSURE},
+        .abilities = {ABILITY_SUPER_LUCK, ABILITY_SNIPER},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_PICKPOCKET,
+            .abilityHidden = ABILITY_ADAPTABILITY,
         #endif
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
